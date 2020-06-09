@@ -7,7 +7,10 @@
 body {
     height: 100vh;
     display: flex;
-    background: #060ab2;
+    background-image: url("img/background.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .memory-game {
@@ -35,7 +38,7 @@ body {
     transition: transform .2s;
 }
 
-.memory-card:flip {
+.memory-card.flip {
     transform: rotateY(180deg);
 }
 
