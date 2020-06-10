@@ -1,58 +1,66 @@
-* {
-    padding: 0;
-    margin: 0;
+html { 
+  background: url("img/background.jpeg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+*,
+*::before,
+*::after {
     box-sizing: border-box;
 }
 
 body {
-    height: 100vh;
-    display: flex;
-    background-image: url("img/background.jpeg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    margin: 20px 0;
 }
 
-.memory-game {
-    width: 640px;
-    height: 640px;
-    margin: auto;
+.grid {
+    max-width: 960px;
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    perspective: 1000px;
+    justify-content: space-evenly;
 }
 
-.memory-card {
-    width: calc(25% - 10px);
-    height: calc(33.333% - 10px);
-    margin: 5px;
+.card {
     position: relative;
-    transform: scale(1);
+    transition: all .4s linear;
     transform-style: preserve-3d;
-    transition: transform .5s;
-    box-shadow: 1px 1px 1px rgba(0,0,0,.3);
+    margin: 5px;
 }
 
-.memory-card:active {
-    transform: scale(0.97);
-    transition: transform .2s;
+.card,
+.back,
+.front {
+    width: 150px;
+    height: 150px;
 }
 
-.memory-card.flip {
-    transform: rotateY(180deg);
-}
-
-.front-face,
-.back-face {
-    width: 100%;
-    height: 100%;
-    padding: 20px;
+.back
+.front {
     position: absolute;
-    border-radius: 5px;
-    background: #1c7ccc;
     backface-visibility: hidden;
 }
 
-.front-face {
+.front {
+    z-index: 2;
+    background: #FAB942 url("img/question.gif") no-repeat center center / contain;
+
+}
+
+.back {
     transform: rotateY(180deg);
+    background-color: #6589F9;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center; 
+}
+
+.selected {
+    transform: rotateY(180deg);
+}
+.match .front {
+    background: none !important;
 }
