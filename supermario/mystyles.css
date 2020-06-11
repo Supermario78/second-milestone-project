@@ -1,11 +1,3 @@
-html { 
-  background: url("img/background.jpeg") no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
 *,
 *::before,
 *::after {
@@ -14,6 +6,11 @@ html {
 
 body {
     margin: 20px 0;
+    background: url("img/background.jpeg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .grid {
@@ -34,11 +31,11 @@ body {
 .card,
 .back,
 .front {
-    width: 150px;
-    height: 150px;
+    height: 128px;
+    width: 128px;
 }
 
-.back
+.back,
 .front {
     position: absolute;
     backface-visibility: hidden;
@@ -47,20 +44,19 @@ body {
 .front {
     z-index: 2;
     background: #FAB942 url("img/question.gif") no-repeat center center / contain;
-
-}
-
+    }
 .back {
     transform: rotateY(180deg);
     background-color: #6589F9;
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: center center; 
+    background-position: center center;
 }
 
 .selected {
     transform: rotateY(180deg);
 }
+
 .match .front {
-    background: none !important;
+    background: #6589F9 !important;
 }
