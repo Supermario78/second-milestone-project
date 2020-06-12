@@ -15,7 +15,7 @@ var cardsArray = [{
         "img": "img/luigi.png"
     }, {
         "name": "peach",
-        "img": "img/peach.png"
+        "img": "img/peacht.png"
     }, {
         "name": "1up",
         "img": "img/1up.png"
@@ -45,10 +45,10 @@ var cardsArray = [{
         "img": "img/yoshi.png"
     }, {
         "name": "donkey-kong",
-        "img": "img/donkey-kong.jpg"
+        "img": "img/donkey-kongt.png"
     }, {
         "name": "daisy",
-        "img": "img/daisy.jpg"
+        "img": "img/daisyt.png"
     }, {
         "name": "bowser",
         "img": "img/bowser.png"

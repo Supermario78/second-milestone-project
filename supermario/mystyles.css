@@ -1,7 +1,45 @@
+@font-face {font-family: "Super Mario 256";
+    src: url("https://db.onlinewebfonts.com/t/6c02f15fdbc9dd7c482b52b06d8e0a6c.eot"); /* IE9*/
+    src: url("https://db.onlinewebfonts.com/t/6c02f15fdbc9dd7c482b52b06d8e0a6c.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("https://db.onlinewebfonts.com/t/6c02f15fdbc9dd7c482b52b06d8e0a6c.woff2") format("woff2"), /* chrome firefox */
+    url("https://db.onlinewebfonts.com/t/6c02f15fdbc9dd7c482b52b06d8e0a6c.woff") format("woff"), /* chrome firefox */
+    url("https://db.onlinewebfonts.com/t/6c02f15fdbc9dd7c482b52b06d8e0a6c.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
+    url("https://db.onlinewebfonts.com/t/6c02f15fdbc9dd7c482b52b06d8e0a6c.svg#Super Mario 256") format("svg"); /* iOS 4.1- */
+}
 *,
 *::before,
 *::after {
     box-sizing: border-box;
+}
+
+.title-container {
+	height: 250px;
+	background: url("img/allstarts_logo.png") no-repeat center center;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-o-background-size: contain;
+	background-size: contain;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	position: relative;
+}
+.jumbotron {
+	background-color: transparent;
+    align-items: center;
+    justify-content: center;
+}
+
+.jumbotron-header {
+	font-family: "Super Mario 256";
+    text-align: center;
+	color: red;
+	font-weight: 400;
+	font-size: 40px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 body {
@@ -14,7 +52,7 @@ body {
 }
 
 .grid {
-    max-width: 960px;
+    max-width: 590px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -31,8 +69,8 @@ body {
 .card,
 .back,
 .front {
-    height: 128px;
-    width: 128px;
+    height: 75px;
+    width: 75px;
 }
 
 .back,
@@ -47,7 +85,7 @@ body {
     }
 .back {
     transform: rotateY(180deg);
-    background-color: #6589F9;
+    background-color:rgba(0,0,0,0.0);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
@@ -58,5 +96,5 @@ body {
 }
 
 .match .front {
-    background: #6589F9 !important;
+    background: rgba(0,0,0,0.0) !important;
 }
