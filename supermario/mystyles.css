@@ -41,6 +41,15 @@
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
+.control {
+    font-family: "Super Mario 256";
+    text-align: center;
+    color: yellow;
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
 body {
     margin: 20px 0;
