@@ -17,7 +17,6 @@
       "**/.theia": true,
    },
 "emmet.extensionsPath": ".theia",
-"prettier.endOfLine": "auto",
 "editor.autoClosingBrackets": "always",
 "editor.autoClosingQuotes": "always",
 "editor.formatOnSave": true,
