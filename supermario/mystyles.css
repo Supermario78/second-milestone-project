@@ -1,109 +1,182 @@
-@font-face {font-family: "Super Mario 256";
-    src: url("https://db.onlinewebfonts.com/t/6c02f15fdbc9dd7c482b52b06d8e0a6c.eot"); /* IE9*/
-    src: url("https://db.onlinewebfonts.com/t/6c02f15fdbc9dd7c482b52b06d8e0a6c.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-    url("https://db.onlinewebfonts.com/t/6c02f15fdbc9dd7c482b52b06d8e0a6c.woff2") format("woff2"), /* chrome firefox */
-    url("https://db.onlinewebfonts.com/t/6c02f15fdbc9dd7c482b52b06d8e0a6c.woff") format("woff"), /* chrome firefox */
-    url("https://db.onlinewebfonts.com/t/6c02f15fdbc9dd7c482b52b06d8e0a6c.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
-    url("https://db.onlinewebfonts.com/t/6c02f15fdbc9dd7c482b52b06d8e0a6c.svg#Super Mario 256") format("svg"); /* iOS 4.1- */
-}
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-}
-
-.title-container {
-	height: 250px;
-	background: url("img/allstarts_logo.png") no-repeat center center;
-	-webkit-background-size: contain;
-	-moz-background-size: contain;
-	-o-background-size: contain;
-	background-size: contain;
-
-	display: flex;
-	align-items: center;
-	justify-content: center;
-
-	position: relative;
-}
-.jumbotron {
-	background-color: transparent;
-    align-items: center;
-    justify-content: center;
+@font-face {
+  font-family: "Super Mario 256";
+  src: url("https://db.onlinewebfonts.com/t/6c02f15fdbc9dd7c482b52b06d8e0a6c.eot"); /* IE9*/
+  src: url("https://db.onlinewebfonts.com/t/6c02f15fdbc9dd7c482b52b06d8e0a6c.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */
+      url("https://db.onlinewebfonts.com/t/6c02f15fdbc9dd7c482b52b06d8e0a6c.woff2")
+      format("woff2"),
+    /* chrome firefox */
+      url("https://db.onlinewebfonts.com/t/6c02f15fdbc9dd7c482b52b06d8e0a6c.woff")
+      format("woff"),
+    /* chrome firefox */
+      url("https://db.onlinewebfonts.com/t/6c02f15fdbc9dd7c482b52b06d8e0a6c.ttf")
+      format("truetype"),
+    /* chrome firefox opera Safari, Android, iOS 4.2+*/
+      url("https://db.onlinewebfonts.com/t/6c02f15fdbc9dd7c482b52b06d8e0a6c.svg#Super Mario 256")
+      format("svg"); /* iOS 4.1- */
 }
 
-.jumbotron-header {
-	font-family: "Super Mario 256";
-    text-align: center;
-	color: red;
-	font-weight: 400;
-	font-size: 40px;
-	margin-top: 10px;
-	margin-bottom: 10px;
+* {
+  box-sizing: border-box;
 }
-.control {
-    font-family: "Super Mario 256";
-    text-align: center;
-    color: yellow;
-    font-weight: 400;
-    font-size: 24px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+
+html {
+  min-height: 100vh;
+  background: url("img/background.jpeg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 body {
-    margin: 20px 0;
-    background: url("img/background.jpeg") no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  margin: 0;
 }
 
-.grid {
-    max-width: 590px;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+.title-container {
+  height: 150px;
+  background: url("img/allstarts_logo.png") no-repeat center center;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-top: 15px;
 }
 
-.card {
-    position: relative;
-    transition: all .4s linear;
-    transform-style: preserve-3d;
-    margin: 5px;
+.main-header {
+  color: red;
+  font-family: "Super Mario 256", serif;
+  font-weight: normal;
+  text-align: center;
+  font-size: 2em;
 }
 
-.card,
-.back,
-.front {
-    height: 75px;
-    width: 75px;
+.game-info-container {
+  grid-column: 1 / -1;
+  display: flex;
+  justify-content: space-between;
 }
 
-.back,
-.front {
-    position: absolute;
-    backface-visibility: hidden;
+.game-info {
+  font-family: "Super Mario 256", serif;
+  color: yellow;
+  font-size: 4em;
 }
 
-.front {
-    z-index: 2;
-    background: #FAB942 url("img/question.gif") no-repeat center center / contain;
-    }
-.back {
-    transform: rotateY(180deg);
-    background-color:rgba(0,0,0,0.0);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center center;
+.game-container {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 10px;
+  justify-content: center;
+  perspective: 500px;
+}
+.card, .card-back, .card-front {
+  position: relative;
+  height: 150px;
+  width: 150px;
+  margin: 5px;
 }
 
-.selected {
-    transform: rotateY(180deg);
+.card-face {
+  position: absolute;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  background-size: contain;
+  background-position: center center;
+  transition: transform 500ms ease-in-out;
+  backface-visibility: visible;
 }
 
-.match .front {
-    background: rgba(0,0,0,0.0) !important;
+.car.visible .card-back {
+  transform: rotateY(-180deg);
+}
+
+.car.visible .card-front {
+  transform: rotateY(0);
+}
+
+.card.matched .card-front .card-value {
+  animation: dance 1s linear infinite 500ms;
+}
+
+.card-back {
+  background: rgb(0,0,0,0.1) url("img/question.gif") no-repeat center center / contain;
+  transform: rotateY(0);
+}
+
+.card-front {
+  transform: rotateY(180deg);
+}
+.card-value {
+  position: relative;
+  transition: transform 100ms ease-in-out;
+  transform: scale(0.9);
+}
+.overlay-text {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+  display: none;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #ff6d00;
+  font-family: Creepy, serif;
+  transition: background-color 500ms, font-size 500ms;
+}
+
+.overlay-text-small {
+  font-size: 0.3em;
+}
+
+.overlay-text.visible {
+  display: flex;
+  animation: overlay-grow 500ms forwards;
+}
+
+@keyframes dance {
+  0%,
+  100% {
+    transform: rotate(0);
+  }
+  25% {
+    transform: rotate(-30deg);
+  }
+  75% {
+    transform: rotate(30deg);
+  }
+}
+
+@keyframes overlay-grow {
+  from {
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 0;
+  }
+  to {
+    background-color: rgba(0, 0, 0, 0.8);
+    font-size: 10em;
+  }
+}
+
+@media (max-width: 600px) {
+  .game-container {
+    grid-template-columns: repeat(2, auto);
+  }
+
+  .game-info-container {
+    flex-direction: column;
+    align-items: center;
+  }
 }

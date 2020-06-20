@@ -16,5 +16,11 @@
       "**/.DS_Store": true,
       "**/.theia": true,
    },
-   "emmet.extensionsPath": ".theia"
+"emmet.extensionsPath": ".theia",
+"prettier.endOfLine": "auto",
+"editor.autoClosingBrackets": "always",
+"editor.autoClosingQuotes": "always",
+"editor.formatOnSave": true,
+"editor.formatOnType": true,
+"editor.autoSave": "off"
 }
