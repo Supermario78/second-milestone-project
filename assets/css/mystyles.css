@@ -23,7 +23,7 @@
 
 html {
   min-height: 100vh;
-  background: url("img/background.jpeg") no-repeat center center fixed;
+  background: url("../img/background.jpeg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -36,7 +36,7 @@ body {
 
 .title-container {
   height: 150px;
-  background: url("img/allstarts_logo.png") no-repeat center center;
+  background: url("../img/allstarts_logo.png") no-repeat center center;
   -webkit-background-size: contain;
   -moz-background-size: contain;
   -o-background-size: contain;
@@ -76,7 +76,9 @@ body {
   justify-content: center;
   perspective: 500px;
 }
-.card, .card-back, .card-front {
+.card,
+.card-back,
+.card-front {
   position: relative;
   height: 150px;
   width: 150px;
@@ -109,7 +111,8 @@ body {
 }
 
 .card-back {
-  background: rgb(0,0,0,0.1) url("img/question.gif") no-repeat center center / contain;
+  background: rgb(0, 0, 0, 0.1) url("../img/question.gif") no-repeat center
+    center / contain;
   transform: rotateY(0);
 }
 
