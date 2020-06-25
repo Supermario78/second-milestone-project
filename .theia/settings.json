@@ -19,7 +19,6 @@
 "emmet.extensionsPath": ".theia",
 "editor.autoClosingBrackets": "always",
 "editor.autoClosingQuotes": "always",
-"editor.formatOnSave": true,
 "editor.formatOnType": true,
 "editor.autoSave": "off"
 }

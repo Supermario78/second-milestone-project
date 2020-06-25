@@ -53,56 +53,53 @@ body {
   font-family: "Super Mario 256", serif;
   font-weight: normal;
   text-align: center;
-  font-size: 2em;
+  font-size: 3em;
 }
 
 .game-info-container {
   grid-column: 1 / -1;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .game-info {
   font-family: "Super Mario 256", serif;
   color: yellow;
-  font-size: 4em;
+  font-size: 3em;
 }
 
 .game-container {
-  margin: 0 auto;
+  margin: 30px auto;
   display: grid;
-  grid-template-columns: repeat(4, auto);
-  grid-gap: 10px;
+  grid-template-columns: repeat(6, auto);
+  grid-gap: 5px;
   justify-content: center;
   perspective: 500px;
 }
-.card,
-.card-back,
-.card-front {
+
+.card {
   position: relative;
-  height: 150px;
-  width: 150px;
-  margin: 5px;
+  height: 155px;
+  width: 155px;
 }
 
 .card-face {
   position: absolute;
-  display: block;
+  display: flex;
   justify-content: center;
   align-items: center;
-  width: 150px;
-  height: 150px;
-  background-size: contain;
-  background-position: center center;
+  width: 100%;
+  height: 100%;
   transition: transform 500ms ease-in-out;
-  backface-visibility: visible;
+  backface-visibility: hidden;
 }
 
-.car.visible .card-back {
+.card:hover .card-back {
   transform: rotateY(-180deg);
 }
 
-.car.visible .card-front {
+.card:hover .card-front {
   transform: rotateY(0);
 }
 
@@ -111,8 +108,10 @@ body {
 }
 
 .card-back {
-  background: rgb(0, 0, 0, 0.1) url("../img/question.gif") no-repeat center
-    center / contain;
+  background-image: url("../img/question.gif");
+  background-size: contain;
+  max-height: 155px;
+  max-width: 155px;
   transform: rotateY(0);
 }
 
@@ -122,7 +121,9 @@ body {
 .card-value {
   position: relative;
   transition: transform 100ms ease-in-out;
-  transform: scale(0.9);
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
 }
 .overlay-text {
   top: 0;
@@ -135,8 +136,8 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  color: #ff6d00;
-  font-family: Creepy, serif;
+  color: greenyellow;
+  font-family: "Super Mario 256", serif;
   transition: background-color 500ms, font-size 500ms;
 }
 
@@ -173,13 +174,35 @@ body {
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1024px) {
   .game-container {
-    grid-template-columns: repeat(2, auto);
+    grid-template-columns: repeat(6, auto);
   }
 
   .game-info-container {
     flex-direction: column;
     align-items: center;
   }
+  .card {
+    position: relative;
+    height: 55px;
+    width: 55px;
+  }
 }
+@media (max-width: 767px) {
+  .game-container {
+    grid-template-columns: repeat(4, auto);
+  }
+
+  .game-info-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .card {
+    position: relative;
+    height: 55px;
+    width: 55px;
+  }
+}
+
+

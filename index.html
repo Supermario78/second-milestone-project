@@ -10,8 +10,8 @@
   <body>
     <div class="title-container"></div>
     <h1 class="main-header">Can You Beat The Clock?</h1>
-    <div class="overlay-text visible">
-      CLick to Start
+    <div class="overlay-text">
+      Click to Start
     </div>
     <div id="game-over-text" class="overlay-text">
       GAME OVER!
@@ -22,122 +22,154 @@
       <span class="overlay-text-small">Click to Restart</span>
     </div>
     <div class="game-container">
-      <div class="game-info-container">
-        <div class="game-info">Time<span id="time-remaining">100</span></div>
-        <div class="game-info">Flips <span id="flips">0</span></div>
-      </div>
-      <div class="card">
-        <div class="card-back card-face"></div>
-        <div
-          class="card-front card-face"
-          style="background-image: url('assets/img/luigi.png');"
-        ></div>
-      </div>
-      <div class="card">
-        <div class="card-back card-face"></div>
-        <div
-          class="card-front card-face"
-          style="background-image: url('assets/img/1up.png');"
-        ></div>
-      </div>
-      <div class="card">
-        <div class="card-back card-face"></div>
-        <div
-          class="card-front card-face"
-          style="background-image: url('assets/img/blueshell.png');"
-        ></div>
-      </div>
-      <div class="card">
-        <div class="card-back card-face"></div>
-        <div
-          class="card-front card-face"
-          style="background-image: url('assets/img/bobomb.png');"
-        ></div>
-      </div>
-      <div class="card">
-        <div class="card-back card-face"></div>
-        <div
-          class="card-front card-face"
-          style="background-image: url('assets/img/bowser.png');"
-        ></div>
-      </div>
-      <div class="card">
-        <div class="card-back card-face"></div>
-        <div
-          class="card-front card-face"
-          style="background-image: url('assets/img/bulletbill.png');"
-        ></div>
-      </div>
-      <div class="card">
-        <div class="card-back card-face"></div>
-        <div
-          class="card-front card-face"
-          style="background-image: url('assets/img/coin.png');"
-        ></div>
-      </div>
-      <div class="card">
-        <div class="card-back card-face"></div>
-        <div
-          class="card-front card-face"
-          style="background-image: url('assets/img/daisyt.png');"
-        ></div>
-      </div>
-      <div class="card">
-        <div class="card-back card-face"></div>
-        <div
-          class="card-front card-face"
-          style="background-image: url('assets/img/luigi.png');"
-        ></div>
-      </div>
-      <div class="card">
-        <div class="card-back card-face"></div>
-        <div
-          class="card-front card-face"
-          style="background-image: url('assets/img/1up.png');"
-        ></div>
-      </div>
-      <div class="card">
-        <div class="card-back card-face"></div>
-        <div
-          class="card-front card-face"
-          style="background-image: url('assets/img/blueshell.png');"
-        ></div>
-      </div>
-      <div class="card">
-        <div class="card-back card-face"></div>
-        <div
-          class="card-front card-face"
-          style="background-image: url('assets/img/bobomb.png');"
-        ></div>
-      </div>
-      <div class="card">
-        <div class="card-back card-face"></div>
-        <div
-          class="card-front card-face"
-          style="background-image: url('assets/img/bowser.png');"
-        ></div>
-      </div>
-      <div class="card">
-        <div class="card-back card-face"></div>
-        <div
-          class="card-front card-face"
-          style="background-image: url('assets/img/bulletbill.png');"
-        ></div>
-      </div>
-      <div class="card">
-        <div class="card-back card-face"></div>
-        <div
-          class="card-front card-face"
-          style="background-image: url('assets/img/coin.png');"
-        ></div>
-      </div>
-      <div class="card">
-        <div class="card-back card-face"></div>
-        <div
-          class="card-front card-face"
-          style="background-image: url('assets/img/daisyt.png');"
-        ></div>
-      </div>
+        <div class="game-info-container">
+            <div class="game-info">Time <span id="time-remaining">100</span></div>
+            <div class="game-info">Flips <span id="flips">0</span></div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face"></div>
+            <div class="card-front card-face">
+                <img class="card-value" src="assets/img/luigi.png" />
+            </div>
+        </div>
+	    <div class="card">
+		    <div class="card-back card-face"></div>
+		    <div class="card-front card-face">
+			    <img class="card-value" src="assets/img/1up.png" />
+	        </div>
+		</div>
+        <div class="card">
+            <div class="card-back card-face"></div>
+            <div class="card-front card-face">
+                <img class="card-value" src="assets/img/blueshell.png" />
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face"></div>
+            <div class="card-front card-face">
+                <img class="card-value" src="assets/img/bobomb.png" />
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face"></div>
+            <div class="card-front card-face">
+                <img class="card-value" src="assets/img/bowser.png" />
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face"></div>
+            <div class="card-front card-face">
+                <img class="card-value" src="assets/img/bulletbill.png" />
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face"></div>
+            <div class="card-front card-face">
+                <img class="card-value" src="assets/img/coin.png" />
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face"></div>
+            <div class="card-front card-face">
+                <img class="card-value" src="assets/img/daisyt.png" />
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face"></div>
+            <div class="card-front card-face">
+                <img class="card-value" src="assets/img/luigi.png" />
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face"></div>
+            <div class="card-front card-face">
+                <img class="card-value" src="assets/img/1up.png" />
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face"></div>
+            <div class="card-front card-face">
+                <img class="card-value" src="assets/img/blueshell.png" />
+          </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face"></div>
+            <div class="card-front card-face">
+                <img class="card-value" src="assets/img/bobomb.png" />
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face"></div>
+            <div class="card-front card-face">
+                <img class="card-value" src="assets/img/bowser.png" />
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face"></div>
+            <div class="card-front card-face">
+                <img class="card-value" src="assets/img/bulletbill.png" />
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face"></div>
+            <div class="card-front card-face">
+                <img class="card-value" src="assets/img/coin.png" />
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face"></div>
+            <div class="card-front card-face">
+                <img class="card-value" src="assets/img/daisyt.png" />
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face"></div>
+            <div class="card-front card-face">
+                <img class="card-value" src="assets/img/mario.png" />
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face"></div>
+            <div class="card-front card-face">
+                <img class="card-value" src="assets/img/mushroom.png" />
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face"></div>
+            <div class="card-front card-face">
+                <img class="card-value" src="assets/img/peacht.png" />
+          </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face"></div>
+            <div class="card-front card-face">
+                <img class="card-value" src="assets/img/star.png" />
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face"></div>
+            <div class="card-front card-face">
+                <img class="card-value" src="assets/img/mario.png" />
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face"></div>
+            <div class="card-front card-face">
+                <img class="card-value" src="assets/img/mushroom.png" />
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face"></div>
+            <div class="card-front card-face">
+                <img class="card-value" src="assets/img/peacht.png" />
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-back card-face"></div>
+            <div class="card-front card-face">
+                <img class="card-value" src="assets/img/star.png" />
+            </div>
+        </div>
     </div>
     <script src="assets/js/script.js"></script>
   </body>
