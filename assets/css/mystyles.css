@@ -95,11 +95,11 @@ body {
   backface-visibility: hidden;
 }
 
-.card:hover .card-back {
+.card.visible .card-back {
   transform: rotateY(-180deg);
 }
 
-.card:hover .card-front {
+.card.visible .card-front {
   transform: rotateY(0);
 }
 
