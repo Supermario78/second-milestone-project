@@ -146,7 +146,7 @@ class BeatTheClock {
 
 let overlays = Array.from(document.getElementsByClassName("overlay-text"));
 let cards = Array.from(document.getElementsByClassName("card"));
-let game = new BeatTheClock(200, cards);
+let game = new BeatTheClock(100, cards);
 
 overlays.forEach(overlay => {
     overlay.addEventListener("click", () => {
