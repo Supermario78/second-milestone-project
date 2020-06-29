@@ -135,10 +135,9 @@ body {
   position: fixed;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
   color: greenyellow;
   font-family: "Super Mario 256", serif;
-  transition: background-color 500ms, font-size 500ms;
+  transition: background-color 500ms, font-size 400ms;
 }
 
 .overlay-text-small {
@@ -147,7 +146,8 @@ body {
 
 .overlay-text.visible {
   display: flex;
-  animation: overlay-grow 500ms forwards;
+  flex-direction: column;
+  animation: overlay-grow 400ms forwards;
 }
 
 @keyframes dance {
@@ -170,7 +170,7 @@ body {
   }
   to {
     background-color: rgba(0, 0, 0, 0.8);
-    font-size: 10em;
+    font-size: 5em;
   }
 }
 
@@ -189,6 +189,19 @@ body {
     width: 55px;
   }
 }
+
+@media(max-width:414px) {
+  @keyframes overlay-grow {
+      from {
+        background-color: rgba(0, 0, 0, 0);
+        font-size: 0;
+    }
+    to {
+    background-color: rgba(0, 0, 0, 0.8);
+    font-size: 2em;
+    }
+  }
+}
 @media (max-width: 767px) {
   .game-container {
     grid-template-columns: repeat(4, auto);
@@ -204,5 +217,4 @@ body {
     width: 55px;
   }
 }
-
 

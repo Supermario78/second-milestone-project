@@ -6,7 +6,7 @@ class AudioController {
         this.matchSound = new Audio("assets/Audio/Hoo-hoo!.wav");
         this.victorySound = new Audio("assets/Audio/victory.wav");
         this.gameOverSound = new Audio("assets/Audio/mariodie.wav");
-        this.introSound.volume = 0.4;
+        this.bgMusic.volume = 0.3;
         this.bgMusic.loop = true;
     }
     startMusic() {
@@ -26,9 +26,11 @@ class AudioController {
         this.matchSound.play();
     }
     victory() {
+        this.stopMusic();
         this.victorySound.play();
     }
     gameOver() {
+        this.stopMusic();
         this.gameOverSound.play();
     }
 }
@@ -94,10 +96,10 @@ class BeatTheClock {
         card1.classList.add("matched");
         card2.classList.add("matched");
         this.audioController.match();
-        if (this.matchedCards.length === this.cardsArray)
+        if (this.matchedCards.length === this.cardsArray.length)
             this.victory();
     }
-    cardMisMatch(_card) {
+    cardMisMatch(card1, card2) {
         this.busy = true;
         setTimeout(() => {
             card1.classList.remove("visible");
@@ -144,7 +146,7 @@ class BeatTheClock {
 
 let overlays = Array.from(document.getElementsByClassName("overlay-text"));
 let cards = Array.from(document.getElementsByClassName("card"));
-let game = new BeatTheClock(100, cards);
+let game = new BeatTheClock(200, cards);
 
 overlays.forEach(overlay => {
     overlay.addEventListener("click", () => {
