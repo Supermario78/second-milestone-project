@@ -90,7 +90,8 @@ I choose to deploy this project on GitHub Pages, below are the steps I used to d
 
 ### Content
 
-- Screenshots pictures taken by myself.
+- Screenshots pictures taken by myself
+
 |  Click Star   |    Game Over   |    Victory    |   Game on   |
 |---------------|----------------|---------------|-------------|
 | <img src="assets/img/click-start.png" /> | <img src="assets/img/game-over.png" /> | <img src="assets/img/victory.png" /> | <img src="assets/img/starting-game.png" /> |
