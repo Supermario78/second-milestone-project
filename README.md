@@ -68,11 +68,11 @@ I have gone to a great length to make sure testing was done to the best of my ab
 
 I have checked and worked on all the necessary corrections to make sure all my pages where CCS3 And HTML5 approved, I had 9 errors on HTML5 and 12 on CSS3 of which I managed to fix.
 
-### WEb Broswers
+### Web Browsers
 
 I have run my project on Firefox, Google Chrome, Brave and Safari and found no issues on desktop mode.
 
-On Safari mobile view, I did found some issues on the background cards no fliping correctly on click, I managed to fix the page further, as you can see from the picture below.
+On Safari mobile view, I did found some issues on the background cards no fliping correctly on click, I managed to fix the page further, but it could still have a more smoother transition as you can see from the video test below.
 
 <img src="assets/img/safari-video-test.gif" />
 
@@ -91,9 +91,10 @@ I choose to deploy this project on GitHub Pages, below are the steps I used to d
 ### Content
 
 - Screenshots pictures taken by myself.
-|The landing page|
-|----------------|
-| <img src="assets/img/starting-game.png" /> |
+|  Click Star   |    Game Over   |    Victory    |   Game on   |
+|---------------|----------------|---------------|-------------|
+| <img src="assets/img/click-start.png" /> | <img src="assets/img/game-over.png" /> | <img src="assets/img/victory.png" /> | <img src="assets/img/starting-game.png" /> |
+
 
 
 
