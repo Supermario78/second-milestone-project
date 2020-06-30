@@ -82,7 +82,7 @@ I choose to deploy this project on GitHub Pages, below are the steps I used to d
 - Log into my github profile page and click on my project's name,
 - clicked on settings,
 - scroll down the page to GitHub Pages,
-- under Source, selected master branch and [Second Milestone Project - Super Mario All Stars - Beat The Clock! https://supermario78.github.io/second-milestone-project/] is published!
+- under Source, selected master branch and [Second Milestone Project - Super Mario All Stars - Beat The Clock!](https://supermario78.github.io/second-milestone-project/) is published!
 
 ## Credits
 
