@@ -1,23 +1,29 @@
-# My First Milestone Project - Personal Website
+# Second Milestone Project - Super Mario All Stars - Beat The Clock!
 
 **Version 1.0.0**
 
-CVs by tradition offer a limited 2 dimensional source of information about a candidate. My goal with this project is to allow prospect employers to get a deeper understanding of myself as a professional and allow me to showcase my new skills as a software developer.  
+I choose to take the oportuntiy to exercise all my new Java Script knowledge alongside my learned skills on HTML5 and CSS3 for this Milestone Project by putting together this rather fun Memory Match card game with a personal favorite theme.
+My goal with this project is to showcase my practical understanding of the JavaScript fundamentals, covering a large variarety of functions, events and utilising algorithms such as the Fisher-Yates shuffle algorithm, which i used on this project.
 
 ---
 
 ## UX
 
-My UX process was mainly focused on achieving relevant information from my personal journey and why I chose to change my direction to coding and software development. The main audience for my project is to prospect employers interested in understanding who I am, my background and what challenges drives me forward.
-At the initial stage of my UX design I got familiar with Balsamic wireframe, which allowed me to sketch a visual picture of which design will be more effective on achieving my desired result to the user.
+My UX process was based on trying to develop a simple, easy to the eye game, navigable layout enabling a logical and intuitive response for the user to play and achive the target explained on the top of the page.
+At the initial stage of my UX design I used the already familiar Balsamic wireframe, which allowed me to sketch a visual picture of which design will be more effective on achieving my desired result to the user.
+
+![Balsamiq View Toggle](https://github.com/Supermario78/second-milestone-project/blob/6f59f2a16708b3132d40683375d0d607059c4b98/assets/img/Balsamiq1.png), 
+(https://github.com/Supermario78/second-milestone-project/blob/6f59f2a16708b3132d40683375d0d607059c4b98/assets/img/Balsamiq2.png)
+(https://github.com/Supermario78/second-milestone-project/blob/6f59f2a16708b3132d40683375d0d607059c4b98/assets/img/Balsamiq3.png)
+(https://github.com/Supermario78/second-milestone-project/blob/6f59f2a16708b3132d40683375d0d607059c4b98/assets/img/Balsamiq4.png)
 
 ### User Feedback
 
--As a recruiter and first time visitor to Mario's web page, I found his landing page easy to read, user friendly and with intuitive navigation, the video feature gave me an instant feel for Mario's personality and career focus.
-The recommendations feature, also provided me with a quick reference of how he was perceived by others who worked with him or above him, I particularly like the pop up option to contact him directly without leaving the site.
-Overall, it is a great effort but with room for improvement.
+-As the first time playing this game on Mario's web page, I found his memory card match game easy to play, user friendly and with intuitive navigation, the background music gave me an instant feel of nostalgia for Super Mario game
+ the count down timer made the game even more exciting as you try to complete matching all the cards with less possible number of flips before the time is up! great fun!
+Overall, it is a great effort but with room for improvement, the game can be enhance with adding difficulty levels and more sound effects.
  
--As a visitor, looking for someone to collaborate with, I liked how sections such as the recommendations, work history and skills were clear and simple to view and understand,it was like a 3D C.V.
+-As a friend, i played from a link on my iphone and realise the game needed some fixes on the cards background as they were not fliping when clicking on the while using safari broswer.
 
 
 ---
@@ -25,10 +31,7 @@ Overall, it is a great effort but with room for improvement.
 
 ## Features
 
-* **Media** - Allows users to get an audio and visual experience of myself and what I have to offer as a person and professional through video, image and text.
-* **Personal Recommendations** - Users can also learn from previous colleagues and bosses on their personal feedback and recommendations to future employers.
-* **PDF CV Donwload Option** - Users can also download a printable version of my cv on the Contact me page as well as my personal contact details.
-* **Contact Me Pop Up Form** - Allows the reader to also get in touch direcly from the screen by submitting a message without leaving the site.
+* **Media** - Allows users to get an audio and visual experience of the game and what JavaScript can offer with HTML and CSS, images, text and audio files.
 
 ---
 
@@ -46,8 +49,8 @@ Overall, it is a great effort but with room for improvement.
      - Used for all my icons
 6. [Google Fonts](https://fonts.google.com/)
      - Provided me with fonts for all my pages such as Exo and Roboto font.
-7. [LinkedIn](https://www.linkedin.com/in/marioperezolea/)
-     - I used LinkedIn as the source for my work history personal recommendations and applied this to my carousel feature.
+7. [FontFamily](url("https://db.onlinewebfonts.com/t/6c02f15fdbc9dd7c482b52b06d8e0a6c.eot")
+     - I used Super Mario 256 FontFamily from onlinewebfonts to create all the text on the index page.
 8. [GitHub](https://github.com/)
      - I uploaded my projects on a regular basis on github and also used it as a source of information and tool to learn even how to write this ReadMe.
 9. [Google.com](https://www.google.com/)
@@ -79,15 +82,14 @@ I choose to deploy this project on GitHub Pages, below are the steps I used to d
 - Log into my github profile page and click on my project's name,
 - clicked on settings,
 - scroll down the page to GitHub Pages,
-- under Source, selected master branch and [My First Milestone Project - Personal Website](https://supermario78.github.io/my-first-milestone-project/) is published!
+- under Source, selected master branch and [Second Milestone Project - Super Mario All Stars - Beat The Clock! https://supermario78.github.io/second-milestone-project/] is published!
 
 ## Credits
 
 ### Content
 
-- The recommendations carousel details and pictures where taken from my personal [LinkedIn](https://www.linkedin.com/in/marioperezolea/) account.
 - Screenshots pictures taken by myself.
-- The [landing page](https://www.pexels.com/photo/road-toward-mountains-2387634/) background picture, titled, Road Towards Mountains, is Licence free to use.
+- The [landing page](https://e3d4465c-dfbf-4b60-b8b1-b3ae0a61a201.ws-eu01.gitpod.io/files/download/?id=cb8cec15-10d5-4618-9dc2-b13e0e1ae904).
 
 
 ## Acknowledgements
