@@ -10,7 +10,9 @@ My goal with this project is to showcase my practical understanding of the JavaS
 ## UX
 
 My UX process was based on trying to develop a simple, easy to the eye game, navigable layout enabling a logical and intuitive response for the user to play and achive the target explained on the top of the page.
-At the initial stage of my UX design I used the already familiar Balsamic wireframe, which allowed me to sketch a visual picture of which design will be more effective on achieving my desired result to the user.
+At the initial stage of my UX design I used the already familiar Balsamiq wireframe, which allowed me to sketch a visual picture of which design will be more effective on achieving my desired result to the user.
+
+The reason why you can see differences between my original wireframes and the actual page because changes happened during development process. I did not find the need to create any more detailed mockups because the design is so straight forward and I already had seen how my cards look together.
 
 Balsamiq Screenshots
 
@@ -45,8 +47,8 @@ Overall, it is a great effort but with room for improvement, the game can be enh
      - Used mainly to modify and add structure from Bootstrap
 3. [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets#CSS_3)
      - Allowed me to personalise colors, buttons, forms and visual details to my personal style.
-4. [Bootstrap](https://getbootstrap.com/)
-     - Used to build the main frame and structure for all my pages, mobile first approach and desktop view, including my carousel feature.
+4. [Markdown](README.md file)
+     - Used to compone Readme page.
 5. [Fontawesome](https://fontawesome.com/)
      - Used for all my footer icons
 6. [Google Fonts](https://fonts.google.com/)
@@ -84,7 +86,7 @@ I choose to deploy this project on GitHub Pages, below are the steps I used to d
 - Log into my github profile page and click on my project's name,
 - clicked on settings,
 - scroll down the page to GitHub Pages,
-- under Source, selected master branch and [Second Milestone Project - Super Mario All Stars - Beat The Clock!](https://supermario78.github.io/second-milestone-project/) is published!
+- under Source, selected master branch and [Second Milestone Project - Super Mario All Stars - Beat The Clock!](https://supermario78.github.io/second-milestone-project/) to view.
 
 ## Credits
 
@@ -103,4 +105,7 @@ I choose to deploy this project on GitHub Pages, below are the steps I used to d
 
 - I want to acknowledge my wife for her massive support during this project including all the spelling checks.
 - I also want to give a massive thanks to my brilliant mentor, Anthony Montaro for all his patience support and guidance every step of the way.
+
+## Disclaimer
+This project is for educational purposes only.
 
