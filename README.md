@@ -12,10 +12,12 @@ My goal with this project is to showcase my practical understanding of the JavaS
 My UX process was based on trying to develop a simple, easy to the eye game, navigable layout enabling a logical and intuitive response for the user to play and achive the target explained on the top of the page.
 At the initial stage of my UX design I used the already familiar Balsamic wireframe, which allowed me to sketch a visual picture of which design will be more effective on achieving my desired result to the user.
 
-![Balsamiq View Toggle](https://github.com/Supermario78/second-milestone-project/blob/6f59f2a16708b3132d40683375d0d607059c4b98/assets/img/Balsamiq1.png)
-(https://github.com/Supermario78/second-milestone-project/blob/6f59f2a16708b3132d40683375d0d607059c4b98/assets/img/Balsamiq2.png)
-(https://github.com/Supermario78/second-milestone-project/blob/6f59f2a16708b3132d40683375d0d607059c4b98/assets/img/Balsamiq3.png)
-(https://github.com/Supermario78/second-milestone-project/blob/6f59f2a16708b3132d40683375d0d607059c4b98/assets/img/Balsamiq4.png)
+Balsamiq Screenshots
+
+| Early Comcept | Victory Screen | Original Grid | Mobile View |
+|---------------|----------------|---------------|-------------|
+| <img src="assets/img/Balsamiq1.png" /> | <img src="assets/img/Balsamiq2.png" /> | <img src="assets/img/Balsamiq3.png" /> | <img src="assets/img/Balsamiq4.png" /> |
+
 
 ### User Feedback
 
@@ -72,7 +74,7 @@ I have run my project on Firefox, Google Chrome, Brave and Safari and found no i
 
 On Safari mobile view, I did found some issues on the background cards no fliping correctly on click, I managed to fix the page further, as you can see from the picture below.
 
-![Mobile View Toggle](https://github.com/Supermario78/my-first-milestone-project/blob/master/assets/images/mobile-view.jpg?raw=true)
+<img src="assets/img/safari-video-test.gif" />
 
 
 ## Deployment
@@ -89,7 +91,10 @@ I choose to deploy this project on GitHub Pages, below are the steps I used to d
 ### Content
 
 - Screenshots pictures taken by myself.
-- The [landing page](https://e3d4465c-dfbf-4b60-b8b1-b3ae0a61a201.ws-eu01.gitpod.io/files/download/?id=cb8cec15-10d5-4618-9dc2-b13e0e1ae904).
+|The landing page|
+|----------------|
+| <img src="assets/img/starting-game.png" /> |
+
 
 
 ## Acknowledgements

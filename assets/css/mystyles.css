@@ -117,7 +117,6 @@ body {
   -moz-backface-visibility: hidden;
   -o-backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
-  transition: transform 500ms ease-in-out;
 }
 
 .card-front {
