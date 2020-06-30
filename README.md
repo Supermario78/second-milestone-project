@@ -12,7 +12,7 @@ My goal with this project is to showcase my practical understanding of the JavaS
 My UX process was based on trying to develop a simple, easy to the eye game, navigable layout enabling a logical and intuitive response for the user to play and achive the target explained on the top of the page.
 At the initial stage of my UX design I used the already familiar Balsamic wireframe, which allowed me to sketch a visual picture of which design will be more effective on achieving my desired result to the user.
 
-![Balsamiq View Toggle](https://github.com/Supermario78/second-milestone-project/blob/6f59f2a16708b3132d40683375d0d607059c4b98/assets/img/Balsamiq1.png), 
+![Balsamiq View Toggle](https://github.com/Supermario78/second-milestone-project/blob/6f59f2a16708b3132d40683375d0d607059c4b98/assets/img/Balsamiq1.png)
 (https://github.com/Supermario78/second-milestone-project/blob/6f59f2a16708b3132d40683375d0d607059c4b98/assets/img/Balsamiq2.png)
 (https://github.com/Supermario78/second-milestone-project/blob/6f59f2a16708b3132d40683375d0d607059c4b98/assets/img/Balsamiq3.png)
 (https://github.com/Supermario78/second-milestone-project/blob/6f59f2a16708b3132d40683375d0d607059c4b98/assets/img/Balsamiq4.png)
@@ -46,10 +46,10 @@ Overall, it is a great effort but with room for improvement, the game can be enh
 4. [Bootstrap](https://getbootstrap.com/)
      - Used to build the main frame and structure for all my pages, mobile first approach and desktop view, including my carousel feature.
 5. [Fontawesome](https://fontawesome.com/)
-     - Used for all my icons
+     - Used for all my footer icons
 6. [Google Fonts](https://fonts.google.com/)
      - Provided me with fonts for all my pages such as Exo and Roboto font.
-7. [FontFamily](url("https://db.onlinewebfonts.com/t/6c02f15fdbc9dd7c482b52b06d8e0a6c.eot")
+7. [FontFamily](https://db.onlinewebfonts.com/t/6c02f15fdbc9dd7c482b52b06d8e0a6c.eot)
      - I used Super Mario 256 FontFamily from onlinewebfonts to create all the text on the index page.
 8. [GitHub](https://github.com/)
      - I uploaded my projects on a regular basis on github and also used it as a source of information and tool to learn even how to write this ReadMe.
@@ -68,9 +68,9 @@ I have checked and worked on all the necessary corrections to make sure all my p
 
 ### WEb Broswers
 
-I have run my project on both Firefox and Google Chrome and found no issues on desktop mode.
+I have run my project on Firefox, Google Chrome, Brave and Safari and found no issues on desktop mode.
 
-On Google Chrome mobile view, I did found some issues on the header dropdown toggle menu option feature, for all 3 of my links pages, I managed to fix the contact-form page on mobile view and work-history page, but the dropdown toggle menu bar on the index page needs further improvement as you can see from the picture below.
+On Safari mobile view, I did found some issues on the background cards no fliping correctly on click, I managed to fix the page further, as you can see from the picture below.
 
 ![Mobile View Toggle](https://github.com/Supermario78/my-first-milestone-project/blob/master/assets/images/mobile-view.jpg?raw=true)
 

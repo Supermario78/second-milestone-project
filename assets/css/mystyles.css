@@ -113,6 +113,11 @@ body {
   max-height: 155px;
   max-width: 155px;
   transform: rotateY(0);
+  backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  transition: transform 500ms ease-in-out;
 }
 
 .card-front {
