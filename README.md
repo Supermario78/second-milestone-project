@@ -47,7 +47,7 @@ Overall, it is a great effort but with room for improvement, the game can be enh
      - Used mainly to modify and add structure from Bootstrap
 3. [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets#CSS_3)
      - Allowed me to personalise colors, buttons, forms and visual details to my personal style.
-4. [Markdown](README.md file)
+4. [Markdown](https://guides.github.com/features/mastering-markdown/)
      - Used to compone Readme page.
 5. [Fontawesome](https://fontawesome.com/)
      - Used for all my footer icons
@@ -68,7 +68,7 @@ I have gone to a great length to make sure testing was done to the best of my ab
 
 ### Code Checking
 
-I have checked and worked on all the necessary corrections to make sure all my pages where CCS3 And HTML5 approved, I had 9 errors on HTML5 and 12 on CSS3 of which I managed to fix.
+I have checked and worked on all the necessary corrections to make sure all my pages where CCS3 And HTML5 approved, I had 0 errors on HTML5 and 0 on CSS3 to fix.
 
 ### Web Browsers
 
@@ -103,6 +103,7 @@ I choose to deploy this project on GitHub Pages, below are the steps I used to d
 
 ## Acknowledgements
 
+- I wanted to dedicate this project to my wondeful 2 year old daughter Abigail.
 - I want to acknowledge my wife for her massive support during this project including all the spelling checks.
 - I also want to give a massive thanks to my brilliant mentor, Anthony Montaro for all his patience support and guidance every step of the way.
 
