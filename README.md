@@ -78,7 +78,7 @@ All responsiveness tests have been performed on the following devices:
 
 ### Code Checking
 
-I have checked and worked on all the necessary corrections to make sure all my pages where CCS3 And HTML5 approved, I had 0 errors on HTML5 and 0 on CSS3 to fix.
+I have checked and worked on all the necessary corrections to make sure all my pages where CCS3 And HTML5 approved, I had 0 errors on all three validators.
 
 - Validators Screenshots
 
