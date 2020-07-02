@@ -41,23 +41,23 @@ Overall, it is a great effort but with room for improvement, the game can be enh
 
 ## Technologies Used
 
-1. [Balsamiq Wireframe](https://balsamiq.com/)
+1. [Balsamiq Wireframe](https://balsamiq.com/){:target="_blank"}
      - Used at the beginning of the project to develop the right UX design desired for mobile and desktop resolutions.
-2. [HTML5](https://en.wikipedia.org/wiki/HTML5)
+2. [HTML5](https://en.wikipedia.org/wiki/HTML5){:target="_blank"}
      - Used mainly to modify and add structure from Bootstrap
-3. [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets#CSS_3)
+3. [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets#CSS_3){:target="_blank"}
      - Allowed me to personalise colors, buttons, forms and visual details to my personal style.
-4. [Markdown](https://guides.github.com/features/mastering-markdown/)
+4. [Markdown](https://guides.github.com/features/mastering-markdown/){:target="_blank"}
      - Used to compone Readme page.
-5. [Fontawesome](https://fontawesome.com/)
+5. [Fontawesome](https://fontawesome.com/){:target="_blank"}
      - Used for all my footer icons
-6. [Google Fonts](https://fonts.google.com/)
+6. [Google Fonts](https://fonts.google.com/){:target="_blank"}
      - Provided me with fonts for all my pages such as Exo and Roboto font.
-7. [FontFamily](https://db.onlinewebfonts.com/t/6c02f15fdbc9dd7c482b52b06d8e0a6c.eot)
+7. [FontFamily](https://db.onlinewebfonts.com/t/6c02f15fdbc9dd7c482b52b06d8e0a6c.eot){:target="_blank"}
      - I used Super Mario 256 FontFamily from onlinewebfonts to create all the text on the index page.
-8. [GitHub](https://github.com/)
+8. [GitHub](https://github.com/){:target="_blank"}
      - I uploaded my projects on a regular basis on github and also used it as a source of information and tool to learn even how to write this ReadMe.
-9. [Google.com](https://www.google.com/)
+9. [Google.com](https://www.google.com/){:target="_blank"}
      - For every answer I needed to continue learning and developing my project, much credit also to youtube for the vast amount of videos and tutorials.
 
 ---
@@ -80,6 +80,13 @@ All responsiveness tests have been performed on the following devices:
 
 I have checked and worked on all the necessary corrections to make sure all my pages where CCS3 And HTML5 approved, I had 0 errors on HTML5 and 0 on CSS3 to fix.
 
+- Validators Screenshots
+
+|   HTML5   |   CSS3   | JavaScript |
+|-----------|----------|------------|
+| <img src="assets/img/Validators/html5-screenshot.png" /> | <img src="assets/img/Validators/css3-screenshot.png" /> | <img src="assets/img/Validators/jshint-screenshot.png" /> |
+
+
 ### Web Browsers
 
 I have run my project on Firefox, Google Chrome, Brave and Safari and found no issues on desktop mode.
@@ -96,31 +103,31 @@ I choose to deploy this project on GitHub Pages, below are the steps I used to d
 - Log into my github profile page and click on my project's name,
 - clicked on settings,
 - scroll down the page to GitHub Pages,
-- under Source, selected master branch and [Second Milestone Project - Super Mario All Stars - Beat The Clock!](https://supermario78.github.io/second-milestone-project/) to view.
+- under Source, selected master branch and [Second Milestone Project - Super Mario All Stars - Beat The Clock!](https://supermario78.github.io/second-milestone-project/){:target="_blank"} to view.
 
 ## Credits
 
 ### Code
-* HTML and CSS part of the [tutorial](https://www.youtube.com/watch?v=28VfzEiJgy4) 
-* Javascript [tutorial 1](https://www.youtube.com/watch?v=3uuQ3g92oPQ)  
-* [StackOverflow](https://stackoverflow.com/questions/60885320/inserts-a-div-and-a-link-into-the-div-twice-and-does-this-with-several-links-js)
-* [Fisher–Yates shuffle](https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle)
+* HTML and CSS part of the [tutorial](https://www.youtube.com/watch?v=28VfzEiJgy4){:target="_blank"} 
+* Javascript [tutorial 1](https://www.youtube.com/watch?v=3uuQ3g92oPQ){:target="_blank"}  
+* [StackOverflow](https://stackoverflow.com/questions/60885320/inserts-a-div-and-a-link-into-the-div-twice-and-does-this-with-several-links-js){:target="_blank"}
+* [Fisher–Yates shuffle](https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle){:target="_blank"}
 
 
 ### Images
-* [Super Mario Characters](https://www.google.com/https://i.pinimg.com/originals/1c/c6/19/1cc61968cf9336a6c7a7a36b352b9abc.jpg)
-* [Back of the Card Question Mark](https://github.com/taniarascia/memory/blob/master/img/question.gif)
-* [All Stars Logo](https://www.pinterest.co.uk/https://i.pinimg.com/564x/38/b0/99/38b099f5541f2ca56bbe5ed9a21ae191.jpg)
-* [Volume Up and Mute Icon](https://fontawesome.com/icons/volume-up?style=solid)
-* [Background visual](https://farm5.staticflickr.com/4062/5169154193_4b8a5a7a80_b.jpg)
+* [Super Mario Characters](https://i.pinimg.com/originals/1c/c6/19/1cc61968cf9336a6c7a7a36b352b9abc.jpg){:target="_blank"}
+* [Back of the Card Question Mark](https://github.com/taniarascia/memory/blob/master/img/question.gif){:target="_blank"}
+* [All Stars Logo](https://i.pinimg.com/564x/38/b0/99/38b099f5541f2ca56bbe5ed9a21ae191.jpg){:target="_blank"}
+* [Volume Up and Mute Icon](https://fontawesome.com/icons/volume-up?style=solid){:target="_blank"}
+* [Background visual](https://farm5.staticflickr.com/4062/5169154193_4b8a5a7a80_b.jpg){:target="_blank"}
 
 ### Audio
-* [Card flip](https://raw.githubusercontent.com/Zackazt/Mix-Or-Match/tutorial-code/Assets/Audio/flip.wav)
-* [Matched](https://themushroomkingdom.net/media/drm64/wav)
-* [Intro - Here we Go!](https://themushroomkingdom.net/sounds/wav/drm64_mario5.wav)
-* [Victory](https://themushroomkingdom.net/sounds/wav/smb/smb_stage_clear.wav)
-* [Game over](https://themushroomkingdom.net/sounds/wav/smb/smb_gameover.wav)
-* [Background audio](https://mp3cdnb.ytjar.xyz/get.php/N/NTa6Xbzfq1U.mp3?h=pGf1VAy2GWbLx3iZKt-Tbg&s=1593477517&n=Super-Mario-Bros-Theme-Song)
+* [Card flip](https://raw.githubusercontent.com/Zackazt/Mix-Or-Match/tutorial-code/Assets/Audio/flip.wav){:target="_blank"}
+* [Matched](https://themushroomkingdom.net/media/drm64/wav){:target="_blank"}
+* [Intro - Here we Go!](https://themushroomkingdom.net/sounds/wav/drm64_mario5.wav){:target="_blank"}
+* [Victory](https://themushroomkingdom.net/sounds/wav/smb/smb_stage_clear.wav){:target="_blank"}
+* [Game over](https://themushroomkingdom.net/sounds/wav/smb/smb_gameover.wav){:target="_blank"}
+* [Background audio](https://mp3cdnb.ytjar.xyz/get.php/N/NTa6Xbzfq1U.mp3?h=pGf1VAy2GWbLx3iZKt-Tbg&s=1593477517&n=Super-Mario-Bros-Theme-Song){:target="_blank"}
 
 
 ### Content
