@@ -1,5 +1,4 @@
 /* Sound Control */
-
 class AudioController {
   constructor() {
     this.bgMusic = new Audio("assets/Audio/theme-Song.mp3");
@@ -59,23 +58,7 @@ class AudioController {
       this.gameOverSound.play();
     }
   }
-  mute() {
-    if (this.mute == false) {
-      this.stopMusic();
-    }
-  }
-  unmute() {
-    if (this.mute == true) {
-      this.startMusic();
-    }
-  }
 }
-
-/*function muteIcon() {
-  if (document.getElementById("muteId").classList.contains("fa-volume-up")) {
-    document.getElementById("muteId").classList.toggle("fa-volume-mute");
-  }
-}*/
 
 /* Playing Matching Cards */
 class BeatTheClock {
@@ -207,7 +190,6 @@ cards.forEach((card) => {
 });
 
 /* On and Off Audio Button */
-
 muteButton.addEventListener("click", () => {
     game.audioController.toggleMusic();
 });
