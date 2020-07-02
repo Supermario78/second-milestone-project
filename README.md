@@ -65,6 +65,16 @@ Overall, it is a great effort but with room for improvement, the game can be enh
 ## Testing
 
 I have gone to a great length to make sure testing was done to the best of my abiliy. 
+I had issues with errors getting the volume icons to toggle on click for mute and unmute of the sound but got it fixed at the end.
+
+All responsiveness tests have been performed on the following devices:
+
+- Samsung A5 (landscape/portrait)
+- Samsing A7 (landscape/portrait)
+- PC (resolutions 1920x1080 and 1366x768)
+- IphoneX (landscape/portrait, very low width viewport, using chrome developer tools)
+- Ipad (landscape/portrait, using chrome developer tools)
+- General responsive testing with chrome developer tools.
 
 ### Code Checking
 
@@ -90,6 +100,29 @@ I choose to deploy this project on GitHub Pages, below are the steps I used to d
 
 ## Credits
 
+### Code
+* HTML and CSS part of the [tutorial](https://www.youtube.com/watch?v=28VfzEiJgy4) 
+* Javascript [tutorial 1](https://www.youtube.com/watch?v=3uuQ3g92oPQ)  
+* [StackOverflow](https://stackoverflow.com/questions/60885320/inserts-a-div-and-a-link-into-the-div-twice-and-does-this-with-several-links-js)
+* [Fisher–Yates shuffle](https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle)
+
+
+### Images
+* [Super Mario Characters](https://www.google.com/https://i.pinimg.com/originals/1c/c6/19/1cc61968cf9336a6c7a7a36b352b9abc.jpg)
+* [Back of the Card Question Mark](https://github.com/taniarascia/memory/blob/master/img/question.gif)
+* [All Stars Logo](https://www.pinterest.co.uk/https://i.pinimg.com/564x/38/b0/99/38b099f5541f2ca56bbe5ed9a21ae191.jpg)
+* [Volume Up and Mute Icon](https://fontawesome.com/icons/volume-up?style=solid)
+* [Background visual](https://farm5.staticflickr.com/4062/5169154193_4b8a5a7a80_b.jpg)
+
+### Audio
+* [Card flip](https://raw.githubusercontent.com/Zackazt/Mix-Or-Match/tutorial-code/Assets/Audio/flip.wav)
+* [Matched](https://themushroomkingdom.net/media/drm64/wav)
+* [Intro - Here we Go!](https://themushroomkingdom.net/sounds/wav/drm64_mario5.wav)
+* [Victory](https://themushroomkingdom.net/sounds/wav/smb/smb_stage_clear.wav)
+* [Game over](https://themushroomkingdom.net/sounds/wav/smb/smb_gameover.wav)
+* [Background audio](https://mp3cdnb.ytjar.xyz/get.php/N/NTa6Xbzfq1U.mp3?h=pGf1VAy2GWbLx3iZKt-Tbg&s=1593477517&n=Super-Mario-Bros-Theme-Song)
+
+
 ### Content
 
 - Screenshots pictures taken by myself
@@ -104,9 +137,10 @@ I choose to deploy this project on GitHub Pages, below are the steps I used to d
 ## Acknowledgements
 
 - I wanted to dedicate this project to my wondeful 2 year old daughter Abigail.
-- I want to acknowledge my wife for her massive support during this project including all the spelling checks.
-- I also want to give a massive thanks to my brilliant mentor, Anthony Montaro for all his patience support and guidance every step of the way.
-
+- Massive Thank you to my study buddy Wouter, all your help checking up on how im doing , help me kept going.
+- Thanks to all the Code Institute Slack community, there was always someone at 2am happy to help. 
+- A massive thanks to my brilliant, patience, knowledgeble and helpful mentor, Anthony Montaro (Tony Montana of the coding word)for all his support and guidance every step of the way.
+- And last but most important, want to acknowledge my amazing wife Jessica, without her never ending support during the entire course project, I would have never get anything done.
 ## Disclaimer
-This project is for educational purposes only.
+This project is for educational purposes only. no materials/files are intended for any commercial use. In this document all sources will be credited.
 

@@ -22,6 +22,7 @@
   box-sizing: border-box;
 }
 
+/* Body */
 body {
   min-height: 100vh;
   background: url("../img/background.jpeg") no-repeat center center fixed;
@@ -32,6 +33,7 @@ body {
   margin: 0;
 }
 
+/* Main Title - All Stars - Logo Image */
 .title-container {
   height: 150px;
   background: url("../img/allstarts_logo.png") no-repeat center center;
@@ -46,6 +48,7 @@ body {
   margin-top: 15px;
 }
 
+/* Can You Beat The Clock Header */
 .main-header {
   color: red;
   font-family: "Super Mario 256", serif;
@@ -54,6 +57,7 @@ body {
   font-size: 3em;
 }
 
+/* Main Game Container Including Timer and Flips */
 .game-info-container {
   grid-column: 1 / -1;
   display: flex;
@@ -61,12 +65,14 @@ body {
   flex-wrap: wrap;
 }
 
+/* Countdown Timer and Flips */
 .game-info {
   font-family: "Super Mario 256", serif;
   color: yellow;
   font-size: 3em;
 }
 
+/* Cards Grid  */
 .game-container {
   margin: 10px auto;
   display: grid;
@@ -76,6 +82,7 @@ body {
   perspective: 500px;
 }
 
+/* Cards */
 .card {
   position: relative;
   height: 150px;
@@ -129,6 +136,8 @@ body {
   width: 100%;
   object-fit: contain;
 }
+
+/*    Overlays    */
 .overlay-text {
   top: 0;
   left: 0;
@@ -154,6 +163,8 @@ body {
   animation: overlay-grow 400ms forwards;
 }
 
+
+/*    Keyframes Animations  */
 @keyframes dance {
   0%,
   100% {
@@ -178,6 +189,7 @@ body {
   }
 }
 
+/* Media Queries */
 @media (max-width: 1024px) {
   .game-container {
     grid-template-columns: repeat(6, auto);
@@ -222,6 +234,7 @@ body {
   }
 }
 
+/*   Footer   */
 .footer-contact {
 	margin-top: 30px;
 	margin-bottom: 0px;
@@ -260,6 +273,7 @@ footer {
     padding-top: 20px;
 }
 
+/* Footer -- Social Media Contact Links */
 .social-links {
 	padding-bottom: 10px;
 }
@@ -311,4 +325,21 @@ footer {
 .social-links li a i.fab.fa-github:hover {
 	background-color: #211f1f;
 }
+
+/* ON/OFF Audio Button */
+.float-button {
+  position:fixed;
+  top:10%;
+  right:5%;
+  color: rgba(0, 0, 0, .5);
+  text-align:center;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+  z-index: 99;
+  cursor: pointer;
+}
+#muteId {
+    font-size: 20px;
+    color: #fafafa;
+}
+
 
