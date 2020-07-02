@@ -341,5 +341,9 @@ footer {
     font-size: 20px;
     color: #fafafa;
 }
+#credits {
+    font-family: "Super Mario 256", serif;
+    color: yellow;
+}
 
 
